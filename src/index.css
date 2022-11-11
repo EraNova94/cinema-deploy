@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: url("https://cdn.britannica.com/60/182360-050-CD8878D6/Avengers-Age-of-Ultron-Joss-Whedon.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(244, 250, 251, 0.9);
+}
+a:hover {
+  color: rgba(242, 171, 77);
+}
+.category__btn {
+  width: 140px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 0px 0px 14px 14px;
+  border: none;
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(88, 109, 252);
+  color: white;
+}
+
+.category__btn:hover {
+  background-color: rgba(242, 171, 77);
+}
+.card:hover {
+  zoom: 1.05;
+}
